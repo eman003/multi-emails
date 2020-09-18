@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Emails</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.multiEmail.css">
+</head>
+<body>
+    <div class="form-group col-md-6">
+        <label for="email-addresses">Email Address</label>
+        <input class="form-control form-control-sm" type="text" id="email-addresses">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.multi-emails.js"></script>
+    <script>
+        $("#email-addresses").multiEmails()
+    </script>
+</body>
+</html>
